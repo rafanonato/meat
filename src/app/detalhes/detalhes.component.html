@@ -1,3 +1,15 @@
-<p>
-  detalhes works!
-</p>
+<div class="content">
+  <div class="col-md-4">
+    <a href="#">
+        <div class="place-info-box">
+          <span class="place-info-box-icon"><img [src]="pedido.imagePath" alt=""></span>
+          <div class="place-info-box-content">
+            <span class="place-info-box-text"><i class="lead">{{pedido.id}}</i></span>
+            <span class="place-info-box-text">{{pedido.name}}</span>
+            <span class="place-info-box-star"><i>{{pedido.category}}</i></span>
+            <span class="place-info-box-text">{{pedido.rating}}</span>
+          </div>
+        </div>
+      </a>
+  </div>
+</div>

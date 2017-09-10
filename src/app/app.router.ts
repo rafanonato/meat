@@ -5,6 +5,7 @@ import {CadastroComponent} from './cadastro/cadastro.component'
 import {LoginComponent} from './login/login.component'
 import {PedidosComponent} from './pedidos/pedidos.component'
 import {CppComponent} from './cpp/cpp.component'
+import { DetalhesComponent } from './detalhes/detalhes.component'
 
 
 export const ROUTES: Routes =[
@@ -13,6 +14,7 @@ export const ROUTES: Routes =[
   {path: 'cadastro', component: CadastroComponent},
   {path: 'login', component: LoginComponent },
   {path: 'pedidos', component: PedidosComponent },
-  {path: 'cpp', component: CppComponent }
+  {path: 'cpp', component: CppComponent },
+  {path: 'detalhes', component: DetalhesComponent }
 
 ]
