@@ -16,6 +16,8 @@ import { PedidosComponent } from './pedidos/pedidos.component';
 import { PedidoComponent } from './pedido/pedido.component';
 import { CppComponent } from './cpp/cpp.component';
 import { pedidoService } from './pedidos/pedidos.service';
+import { DetalhesComponent } from './detalhes/detalhes.component';
+import { ReviewsComponent } from './detalhes/reviews/reviews.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { pedidoService } from './pedidos/pedidos.service';
     PedidosComponent,
     PedidoComponent,
     CppComponent,
+    DetalhesComponent,
+    ReviewsComponent,
     ],
   imports: [
     BrowserModule,

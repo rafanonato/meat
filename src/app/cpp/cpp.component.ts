@@ -10,7 +10,6 @@ export class CppComponent implements OnInit {
 
   ngOnInit() {
 
-
   }
 
 }
